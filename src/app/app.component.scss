@@ -1,0 +1,183 @@
+// /* Reset some default styles */
+// body, h1, h2, p {
+//     margin: 0;
+//     padding: 0;
+//   }
+  
+//   /* Navbar styles */
+//   .navbar {
+//     background-color: #333;
+//     color: white;
+//     padding: 10px 0;
+//   }
+  
+//   .container {
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     padding: 0 20px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//   }
+  
+//   .logo {
+//     font-size: 24px;
+//     text-decoration: none;
+//     color: white;
+//   }
+  
+//   .nav-links {
+//     list-style: none;
+//     display: flex;
+//   }
+  
+//   .nav-links li {
+//     margin-right: 20px;
+//   }
+  
+//   .nav-links a {
+//     text-decoration: none;
+//     color: white;
+//   }
+  
+//   /* Hero section styles */
+//   .hero {
+//     background-image: url(../assets/ngo_1.jpeg);
+//     background-size: cover;
+//     background-position: center;
+//     color: white;
+//     text-align: center;
+//     padding: 200px 0;
+//   }
+  
+//   /* Content section styles */
+//   .content {
+//     padding: 50px 0;
+//   }
+  
+//   /* Footer styles */
+//   .footer {
+//     background-color: #333;
+//     color: white;
+//     text-align: center;
+//     padding: 10px 0;
+//   }
+  
+* {
+    margin:0;
+    padding:0;
+  }
+  header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1506434304575-afbb92660c28?ixlib=rb-0.3.5&s=fcaa96b5e92a1dc85bcb0f9644976330&auto=format&fit=crop&w=751&q=80);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .main-nav{
+    float:right;
+    list-style:none;
+    margin-top:30px;
+  }
+  .main-nav li {
+    display:inline-block;
+  }
+  .main-nav li a{
+    color:white;
+    text-decoration:none;
+    padding:5px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size:15px;
+  }
+  .main-nav li.active a{
+    border:1px solid white;
+  }
+  .main-nav li a:hover {
+    border:1px solid white;
+    
+  }
+  .logo img{
+    width:150px;
+    height:auto;
+    float:left;
+    
+    
+  }
+  body{
+    font-family:monospace;
+  }
+  .row{
+    max-width:1200px;
+    margin:auto;
+  }
+  .hero{
+    position:absolute;
+    width:1200px;
+    margin-left:0;
+    margin-top:0;
+     
+    
+    
+    
+  }
+  h1{
+    color:white;
+    text-transform:uppercase;
+    font-size:70px;
+    text-align:center;
+    margin-top:275px;
+    
+    
+  }
+  .button{
+    margin-top:30px;
+    margin-left:440px;
+  }
+  
+  
+  .btn{
+    border:1px solid white;
+    padding:10px 30px;
+    color:white;
+    text-decoration:none;
+    margin-right:5px;
+    font-size:14px;
+    text-transform:uppercase;
+    
+    
+    
+  }
+  .btn-one{
+    background-color:darkorange;
+    font-family:"roboto",sans-serif;
+  }
+  .btn-two{
+    font-family:"Roboto",sans-serif;
+  }
+  .btn-two:hover{
+    background-color:darkorange;
+    transition: all 0.5s ease-in;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
